@@ -1,0 +1,103 @@
+<div
+        class="w-[100%] h-auto bg-white dark:bg-[#121212] mobile:mt-[100px] tablet:mt-[50px] desktop:mt-0 "
+      >
+        <div
+          class="w-[100%] desktop:h-[772px] bg-[#CDE4B0] dark:bg-[#1A1A1A] desktop:flex desktop:justify-center mobile:flex mobile:justify-center tablet:flex tablet:justify-center mobile:h-[2200px] tablet:h-[1200px] tablet:pt-[10px]"
+        >
+          <div
+            class="desktop:w-[80%] mobile:w-[90%] tablet:w-[85%] h-[750px] desktop:flex desktop:justify-center desktop:items-center desktop:gap-[13px] mobile:flex-col tablet:grid tablet:grid-cols-2 tablet:gap-5 mobile:items-center space-y-5"
+          >
+            <!-- Card 1 -->
+            <div
+              class="desktop:w-[27%] tablet:w-[100%] mobile:w-[100%] desktop:h-[630px] border bg-white dark:bg-[#232323] shadow-[-3px_3px_7px_0px_rgba(0,0,0,0.2)] dark:shadow-[0px_4px_15px_rgba(212,28,86,0.5)] mobile:h-[595px] tablet:h-[550px] mobile:mt-[20px] rounded-lg dark:border dark:border-[#D41C56] overflow-hidden"
+            >
+              <img
+                class="w-full h-auto object-cover rounded-lg border border-gray-300 dark:border-[#D41C56]"
+                src="./public/image/recipe food/image-1.jpg"
+                alt=""
+              />
+              <h2
+                class="py-[20px] text-[#FF0000] dark:text-[#D41C56] text-[18px] px-[22px]"
+              >
+                ماکارونی با سبزیجات
+              </h2>
+              <p
+                class="px-[22px] text-[16px] text-gray-400 dark:text-[#B8B8B8]"
+              >
+                ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌
+                می‌ریزیم‌ تا کمی‌ بپزد...
+              </p>
+              <div
+                class="w-[110px] h-[40px] bg-[#FFFFFF] dark:bg-[#D41C56] border box-border mt-[25px] border-gray-300 dark:border-[#B8B8B8] m-4 rounded-[7px] hover:bg-[#FF0000] dark:hover:bg-[#0D9755] transition-all ease-in-out duration-400"
+              >
+                <a
+                  class="block text-center leading-[40px] text-[15px] hover:text-white text-[#7C7D7E] dark:text-[#B8B8B8]"
+                  href="#"
+                >
+                  ادامه مطلب
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="desktop:w-[27%] tablet:w-[100%] mobile:w-[100%] desktop:h-[630px] border bg-white dark:bg-[#232323] shadow-[-3px_3px_7px_0px_rgba(0,0,0,0.2)] dark:shadow-[0px_4px_15px_rgba(212,28,86,0.5)] mobile:h-[595px] tablet:h-[550px] rounded-lg dark:border dark:border-[#D41C56] overflow-hidden"
+            >
+              <img
+                class="w-full h-auto object-cover rounded-lg border border-gray-300 dark:border-[#D41C56]"
+                src="./public/image/recipe food/image-2.jpg"
+                alt=""
+              />
+              <h2
+                class="py-[20px] text-[#FF0000] dark:text-[#D41C56] text-[18px] p-3"
+              >
+                سوپ مکزیکی
+              </h2>
+              <p class="p-3 text-[16px] text-gray-400 dark:text-[#B8B8B8]">
+                گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا
+                روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید...
+              </p>
+              <div
+                class="w-[110px] h-[40px] bg-[#FFFFFF] dark:bg-[#D41C56] border box-border mt-[25px] border-gray-300 dark:border-[#B8B8B8] m-4 rounded-[7px] hover:bg-[#FF0000] dark:hover:bg-[#0D9755] transition-all ease-in-out duration-400"
+              >
+                <a
+                  class="block text-center leading-[40px] text-[15px] hover:text-white text-[#7C7D7E] dark:text-[#B8B8B8]"
+                  href="#"
+                >
+                  ادامه مطلب
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="desktop:w-[27%] tablet:w-[100%] mobile:w-[100%] desktop:h-[630px] border bg-white dark:bg-[#232323] shadow-[-3px_3px_7px_0px_rgba(0,0,0,0.2)] dark:shadow-[0px_4px_15px_rgba(212,28,86,0.5)] mobile:h-[595px] tablet:h-[550px] rounded-lg dark:border dark:border-[#D41C56] overflow-hidden"
+            >
+              <img
+                class="w-full h-auto object-cover rounded-lg border border-gray-300 dark:border-[#D41C56]"
+                src="./public/image/recipe food/image-3.jpg"
+                alt=""
+              />
+              <h2
+                class="py-[20px] text-[#FF0000] dark:text-[#D41C56] text-[18px] p-3"
+              >
+                چیلاکیله
+              </h2>
+              <p class="p-3 text-[16px] text-gray-400 dark:text-[#B8B8B8]">
+                احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای
+                فوق‌العاده خوشمزه را تهیه کنید...
+              </p>
+              <div
+                class="w-[110px] h-[40px] bg-[#FFFFFF] dark:bg-[#D41C56] border box-border mt-[25px] border-gray-300 dark:border-[#B8B8B8] m-4 rounded-[7px] hover:bg-[#FF0000] dark:hover:bg-[#0D9755] transition-all ease-in-out duration-400"
+              >
+                <a
+                  class="block text-center leading-[40px] text-[15px] hover:text-white text-[#7C7D7E] dark:text-[#B8B8B8]"
+                  href="#"
+                >
+                  ادامه مطلب
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
