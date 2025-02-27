@@ -17,16 +17,16 @@ export default {
         "0%": {
           transform: "translateY(-100vh)",
           opacity: "0",
-          filter: "blur(10px)", // کمی تار بودن در ابتدا
+          filter: "blur(10px)",
         },
         "50%": {
-          opacity: "0.5", // کمی محو بودن در نیمه راه
-          filter: "blur(5px)", // محوشدگی کمتر
+          opacity: "0.5",
+          filter: "blur(5px)",
         },
         "100%": {
           transform: "translateY(0)",
-          opacity: "1", // کاملاً واضح
-          filter: "blur(0)", // بدون تاری در انتها
+          opacity: "1",
+          filter: "blur(0)",
         },
       },
       slideInFromRight: {
@@ -45,47 +45,47 @@ export default {
           filter: "blur(0)",
         },
       },
-      // انیمیشن جدید که از بالا میاد و در انتها کندتر می‌شود
+
       slideInFromTopLonger: {
         "0%": {
           transform: "translateY(-100vh)",
           opacity: "0",
-          filter: "blur(10px)", // کمی تار بودن در ابتدا
+          filter: "blur(10px)",
         },
         "50%": {
-          opacity: "0.5", // کمی محو بودن در نیمه راه
-          filter: "blur(5px)", // محوشدگی کمتر
+          opacity: "0.5",
+          filter: "blur(5px)",
         },
         "100%": {
           transform: "translateY(0)",
-          opacity: "1", // کاملاً واضح
-          filter: "blur(0)", // بدون تاری در انتها
+          opacity: "1",
+          filter: "blur(0)",
         },
       },
-      // انیمیشن جدید که از داخل به بیرون میاد
+
       slideInFromInside: {
         "0%": {
-          transform: "scale(0.5)", // شروع از اندازه کوچک (داخل)
+          transform: "scale(0.5)",
           opacity: "0",
-          filter: "blur(10px)", // کمی تار بودن در ابتدا
+          filter: "blur(10px)",
         },
         "50%": {
-          opacity: "0.5", // کمی محو بودن در نیمه راه
-          filter: "blur(5px)", // محوشدگی کمتر
+          opacity: "0.5",
+          filter: "blur(5px)",
         },
         "100%": {
-          transform: "scale(1)", // اندازه نهایی (بیرون)
-          opacity: "1", // کاملاً واضح
-          filter: "blur(0)", // بدون تاری در انتها
+          transform: "scale(1)",
+          opacity: "1",
+          filter: "blur(0)",
         },
       },
     },
     animation: {
-      slideInFromTop: "slideInFromTop 2s ease-out", // افزایش مدت زمان
-      slideInFromRight: "slideInFromRight 2s ease-out", // افزایش مدت زمان
+      slideInFromTop: "slideInFromTop 2s ease-out",
+      slideInFromRight: "slideInFromRight 2s ease-out",
       slideInFromTopLonger:
-        "slideInFromTopLonger 2.5s cubic-bezier(0.42, 0, 0.58, 1)", // شروع سریع و انتها کندتر
-      slideInFromInside: "slideInFromInside 0.8s ease-out", // انیمیشن جدید از داخل به بیرون
+        "slideInFromTopLonger 2.5s cubic-bezier(0.42, 0, 0.58, 1)",
+      slideInFromInside: "slideInFromInside 0.8s ease-out",
     },
   },
   plugins: [],

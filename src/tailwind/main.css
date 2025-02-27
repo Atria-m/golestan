@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "IRANSans";
-  src: url("/fonts/IRANSans-web.woff") format("woff");
+  src: url("/public/fonts/IRANSans-web.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
