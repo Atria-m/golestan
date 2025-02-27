@@ -1751,6 +1751,22 @@ video {
     margin-top: 68px;
   }
 
+  .mobile\:mt-\[1000px\] {
+    margin-top: 1000px;
+  }
+
+  .mobile\:mt-\[800px\] {
+    margin-top: 800px;
+  }
+
+  .mobile\:mt-\[500px\] {
+    margin-top: 500px;
+  }
+
+  .mobile\:mt-\[0px\] {
+    margin-top: 0px;
+  }
+
   .mobile\:block {
     display: block;
   }
@@ -1811,6 +1827,34 @@ video {
     height: auto;
   }
 
+  .mobile\:h-\[auto\] {
+    height: auto;
+  }
+
+  .mobile\:h-\[1000px\] {
+    height: 1000px;
+  }
+
+  .mobile\:h-\[1000\] {
+    height: 1000;
+  }
+
+  .mobile\:h-\[1500px\] {
+    height: 1500px;
+  }
+
+  .mobile\:h-\[1900px\] {
+    height: 1900px;
+  }
+
+  .mobile\:h-\[\] {
+    height: ;
+  }
+
+  .mobile\:h-\[50px\] {
+    height: 50px;
+  }
+
   .mobile\:w-\[100\%\] {
     width: 100%;
   }
@@ -1862,8 +1906,32 @@ video {
     background-size: contain;
   }
 
+  .mobile\:bg-auto {
+    background-size: auto;
+  }
+
+  .mobile\:bg-scroll {
+    background-attachment: scroll;
+  }
+
   .mobile\:bg-center {
     background-position: center;
+  }
+
+  .mobile\:bg-right {
+    background-position: right;
+  }
+
+  .mobile\:bg-right-bottom {
+    background-position: right bottom;
+  }
+
+  .mobile\:bg-left-bottom {
+    background-position: left bottom;
+  }
+
+  .mobile\:bg-left-top {
+    background-position: left top;
   }
 
   .mobile\:object-cover {
